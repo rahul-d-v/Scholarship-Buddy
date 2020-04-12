@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="  Scholar Buddy "
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/centgovtbutton"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_below="@+id/welcomeText"
+            android:layout_marginTop="30dp"
+            android:text="Central Government Scholarship"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/stategovtbutton"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_below="@+id/centgovtbutton"
+            android:layout_marginTop="20dp"
+            android:text="State Government Scholarship"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stategovtbutton"
+            android:layout_marginTop="10dp"
+            android:text="Logout"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</ScrollView>
